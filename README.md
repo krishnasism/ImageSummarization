@@ -15,7 +15,8 @@ This project was done in Anaconda and Python 3.5, so it will be better to use th
 * matplotlib
 * h5py
 * keras
-* sk-learn
+* sklearn
+* nltk
 
 ### Install google api client for downloading images
 ```
