@@ -1,9 +1,38 @@
 # ImageSummarization
-Find the most important image
+### Note
+This project was done in Anaconda and Python 3.5, so it will be better to use those environments, for no errors. 
 
-## Pre requisites 
+## Prerequisites
 
-### Download the Model File
-Download the Retina Net Model file from [here](httpsgithub.comOlafenwaMosesImageAIreleasesdownload1.0resnet50_coco_best_v2.0.1.h5)
-and place it in the project directory.
+# Install libraries
+
+## Use the anaconda navigator to install the following libraries 
+* tensorflow
+* numpy
+* SciPy
+* Open CV
+* Pillow
+* matplotlib
+* h5py
+* keras
+* sk-learn
+
+### Install google api client for downloading images
+```
+pip install --upgrade google-api-python-client
+```
+### Install ImageAI 
+```
+pip install https://github.com/OlafenwaMoses/ImageAI/releases/download/2.0.2/imageai-2.0.2-py3-none-any.whl 
+```
+
+# Download pre-trained model 
+
+Download the RetinaNet model file from [here](https://github.com/OlafenwaMoses/ImageAI/releases/download/2.0.2/imageai-2.0.2-py3-none-any.whl)
+
+## Download images and place it in test2 folder
+## Run the program
+```
+python main.py
+```
 
